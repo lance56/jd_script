@@ -9,7 +9,7 @@
 17 9,13,20,21 2-22 2 * node /scripts/jd_global.js >> /scripts/logs/jd_global.log 2>&1
 
 #女装盲盒 活动时间：2021-2-19至2021-2-25
-14 8,18 1-8/1,27,28 2,3 * node /scripts/jd_nzmh.js >> /scripts/logs/jd_nzmh.log 2>&1
+14 8,11,21 1-8/1,27,28 2,3 * node /scripts/jd_nzmh.js >> /scripts/logs/jd_nzmh.log 2>&1
 
 #京东极速版天天领红包 活动时间：2021-1-18至2021-3-3
 3 0,23 * * * node /scripts/jd_speed_redpocke.js >> /scripts/logs/jd_speed_redpocke.log 2>&1
