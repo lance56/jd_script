@@ -89,7 +89,7 @@
 # 京喜app签到
 25 6 * * * node /scripts/jx_sign.js >> /scripts/logs/jx_sign.log 2>&1
 # 京东家庭号(暂不知最佳cron)
- */25 * * * * node /scripts/jd_family.js >> /scripts/logs/jd_family.log 2>&1
+*/29 * * * * node /scripts/jd_family.js >> /scripts/logs/jd_family.log 2>&1
 # 闪购盲盒
 10 8 * * * node /scripts/jd_sgmh.js >> /scripts/logs/jd_sgmh.log 2>&1
 # 京东秒秒币
