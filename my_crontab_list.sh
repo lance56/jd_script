@@ -6,7 +6,7 @@
 24 9,20 * * * node /scripts/jd_xgyl.js >> /scripts/logs/jd_jd_xgyl.log 2>&1
 
 #环球挑战赛 活动时间：2021-02-02 至 2021-02-22
-17 9,13,20,21 2-22 2 * node /scripts/jd_global.js >> /scripts/logs/jd_global.log 2>&1
+0 8,9 8-31 3 * node /scripts/jd_global.js >> /scripts/logs/jd_global.log 2>&1
 
 #女装盲盒 活动时间：2021-2-19至2021-2-25
 14 8,11,21 1-8/1,27,28 2,3 * node /scripts/jd_nzmh.js >> /scripts/logs/jd_nzmh.log 2>&1
